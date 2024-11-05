@@ -1,7 +1,7 @@
-url: https://migration-helper.darwinia.network/api/migrate
-status: down
-code: 404
-responseTime: 650
-lastUpdated: 2024-11-05T13:34:32.801Z
+url: https://migration-helper.darwinia.network/api/health
+status: up
+code: 200
+responseTime: 525
+lastUpdated: 2024-11-05T13:58:38.970Z
 startTime: 2024-11-05T13:23:32.998Z
 generator: Upptime <https://github.com/upptime/upptime>
