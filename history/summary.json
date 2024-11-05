@@ -4,19 +4,19 @@
     "url": "http://g1.darwinia2.darwinia.network:9944",
     "icon": "https://icons.duckduckgo.com/ip3/g1.darwinia2.darwinia.network.ico",
     "slug": "darwinia-g1",
-    "status": "down",
-    "uptime": "5.73%",
-    "uptimeDay": "5.73%",
-    "uptimeWeek": "5.73%",
-    "uptimeMonth": "5.73%",
-    "uptimeYear": "5.73%",
-    "time": 566,
-    "timeDay": 566,
-    "timeWeek": 566,
-    "timeMonth": 566,
-    "timeYear": 566,
+    "status": "up",
+    "uptime": "5.75%",
+    "uptimeDay": "5.75%",
+    "uptimeWeek": "5.75%",
+    "uptimeMonth": "5.75%",
+    "uptimeYear": "5.75%",
+    "time": 467,
+    "timeDay": 467,
+    "timeWeek": 467,
+    "timeMonth": 467,
+    "timeYear": 467,
     "dailyMinutesDown": {
-      "2024-11-05": 0
+      "2024-11-05": 1
     }
   }
 ]
