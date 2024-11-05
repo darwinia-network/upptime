@@ -207,13 +207,7 @@ sites:
 
   ### === migration-helper
   - name: migration-helper-api
-    url: https://migration-helper.darwinia.network/api/migrate
-    mehtod: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"chainId": 1, "who": 1}'
-    expectedStatusCodes:
-      - 400
+    url: https://migration-helper.darwinia.network/api/health
 
   ### === thegraph
   - name: thegraph-dip7index-darwinia
