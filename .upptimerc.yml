@@ -5,6 +5,7 @@ repo: upptime # The name of this repository
 sites:
   - name: darwinia-g1
     url: http://g1.darwinia2.darwinia.network:9944
+    method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
