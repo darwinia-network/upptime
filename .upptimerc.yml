@@ -175,19 +175,19 @@ sites:
 
   ### === koi rpc
   - name: rpc-koi-g1
-    url: http://g1.testnets.darwinia.network:9944
+    url: http://g1.testnets.darwinia.network:99442
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
   - name: rpc-koi-g2
-    url: http://g2.testnets.darwinia.network:9944
+    url: http://g2.testnets.darwinia.network:9942
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
   - name: rpc-koi-g3
-    url: http://g3.testnets.darwinia.network:9944
+    url: http://g3.testnets.darwinia.network:9942
     method: POST
     headers:
       - "Content-Type: application/json"
@@ -201,7 +201,6 @@ sites:
     body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
 
 
-
   ### === msgport
   - name: msgport-api
     url: https://api.msgport.xyz
@@ -210,6 +209,9 @@ sites:
   - name: migration-helper-api
     url: https://migration-helper.darwinia.network/api/migrate
     mehtod: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"chainId": 1, "who": 1}'
     expectedStatusCodes:
       - 400
 
