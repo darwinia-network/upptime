@@ -40,6 +40,83 @@ sites:
     headers:
       - "Content-Type: application/json"
     body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-darwinia-itering-c1
+    url: http://c1.darwinia-rpc.itering.io:9944
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-darwinia-itering-c2
+    url: http://c1.darwinia-rpc.itering.io:9944
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-darwinia-itering-c2
+    url: http://c1.darwinia-rpc.itering.io:9944
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+
+  - name: rpc-darwinia-official
+    url: https://rpc.darwinia.network
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-darwinia-dwellir
+    url: https://darwinia-rpc.dwellir.com
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-darwinia-subquery
+    url: https://darwinia.rpc.subquery.network/public
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-darwinia-subquery
+    url: https://darwinia-rpc.dcdao.box
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-darwinia-hrpc
+    url: https://hrpc.darwinia.network/darwinia
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+
+
+  - name: rpc-darwinia-collator-a
+    url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_A
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-darwinia-collator-b
+    url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_B
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-darwinia-collator-c
+    url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_C
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-darwinia-collator-d
+    url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_D
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+
+
 
   ### === crab rpc
   - name: rpc-crab-g1
@@ -48,11 +125,107 @@ sites:
     headers:
       - "Content-Type: application/json"
     body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
-
   - name: rpc-crab-c1
     url: http://c1.crab2.darwinia.network:9944
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-crab-itering-c1
+    url: http://c1.crab-rpc.itering.io:9944
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-crab-itering-c2
+    url: http://c2.crab-rpc.itering.io:9944
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+
+
+  - name: rpc-crab-official
+    url: https://crab-rpc.darwinia.network
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-crab-hrpc
+    url: https://hrpc.darwinia.network/crab
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+
+
+  - name: rpc-crab-collator-a
+    url: $ENDPOINT_RPC_ITERING_COLLATOR_CRAB_A
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-crab-collator-b
+    url: $ENDPOINT_RPC_ITERING_COLLATOR_CRAB_B
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+
+
+  ### === koi rpc
+  - name: rpc-koi-g1
+    url: http://g1.testnets.darwinia.network:9944
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-koi-g2
+    url: http://g2.testnets.darwinia.network:9944
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  - name: rpc-koi-g3
+    url: http://g3.testnets.darwinia.network:9944
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+
+  - name: rpc-koi-official
+    url: https://koi-rpc.darwinia.network
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+
+
+
+  ### === msgport
+  - name: msgport-api
+    url: https://api.msgport.xyz
+
+  ### === migration-helper
+  - name: migration-helper-api
+    url: https://migration-helper.darwinia.network/api/migrate
+    mehtod: POST
+    expectedStatusCodes:
+      - 400
+
+  ### === thegraph
+  - name: thegraph-dip7index-darwinia
+    url: https://thegraph.darwinia.network/dip7/subgraphs/name/dip7index-darwinia
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"query":"query MyQuery {\n _meta {\n hasIndexingErrors\n }\n}","operationName":"MyQuery"}'
+  - name: thegraph-dip7index-crab
+    url: https://thegraph.darwinia.network/dip7/subgraphs/name/dip7index-crab
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"query":"query MyQuery {\n _meta {\n hasIndexingErrors\n }\n}","operationName":"MyQuery"}'
+
+
 
