@@ -12,9 +12,9 @@ status-website:
   # baseUrl: /your-repo-name
   # logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   logoUrl: https://raw.githubusercontent.com/darwinia-network/devops/main/assets/darwinia/Darwinia-Background.svg
-  name: Upptime
-  introTitle: "Darwinia Upptime"
-  introMessage: Darwinia Upptime, powered by [**upptime**](https://github.com/upptime/upptime)
+  name: "Darwinia Status"
+  introTitle: "Darwinia Status"
+  introMessage: Darwinia Status, powered by [**upptime**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
