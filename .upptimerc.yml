@@ -47,13 +47,7 @@ sites:
       - "Content-Type: application/json"
     body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
   - name: rpc-darwinia-itering-c2
-    url: http://c1.darwinia-rpc.itering.io:9944
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
-  - name: rpc-darwinia-itering-c2
-    url: http://c1.darwinia-rpc.itering.io:9944
+    url: http://c2.darwinia-rpc.itering.io:9944
     method: POST
     headers:
       - "Content-Type: application/json"
