@@ -40,19 +40,19 @@
     "url": "http://c1.darwinia-rpc.itering.io:9944",
     "icon": "https://icons.duckduckgo.com/ip3/c1.darwinia-rpc.itering.io.ico",
     "slug": "rpc-darwinia-itering-c1",
-    "status": "down",
-    "uptime": "94.44%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "94.44%",
-    "uptimeMonth": "94.44%",
-    "uptimeYear": "94.44%",
-    "time": 342,
-    "timeDay": 412,
-    "timeWeek": 342,
-    "timeMonth": 342,
-    "timeYear": 342,
+    "status": "up",
+    "uptime": "94.27%",
+    "uptimeDay": "99.57%",
+    "uptimeWeek": "94.27%",
+    "uptimeMonth": "94.27%",
+    "uptimeYear": "94.27%",
+    "time": 325,
+    "timeDay": 311,
+    "timeWeek": 325,
+    "timeMonth": 325,
+    "timeYear": 325,
     "dailyMinutesDown": {
-      "2024-11-07": 0,
+      "2024-11-07": 6,
       "2024-11-06": 181
     }
   },
@@ -399,7 +399,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-11-07": 1173,
+      "2024-11-07": 1179,
       "2024-11-06": 1440,
       "2024-11-05": 637
     }
