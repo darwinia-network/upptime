@@ -169,7 +169,7 @@ sites:
 
   ### === koi rpc
   - name: rpc-koi-g1
-    url: http://g1.testnets.darwinia.network:99442
+    url: http://g1.testnets.darwinia.network:9942
     method: POST
     headers:
       - "Content-Type: application/json"
