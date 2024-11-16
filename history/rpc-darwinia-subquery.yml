@@ -1,7 +1,7 @@
-url: https://darwinia-rpc.dcdao.box
-status: down
-code: 503
-responseTime: 428
-lastUpdated: 2024-11-16T23:19:53.670Z
+url: https://darwinia.rpc.subquery.network/public
+status: up
+code: 200
+responseTime: 484
+lastUpdated: 2024-11-16T23:28:57.952Z
 startTime: 2024-11-05T13:23:13.235Z
 generator: Upptime <https://github.com/upptime/upptime>
