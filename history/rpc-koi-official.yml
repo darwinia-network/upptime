@@ -1,7 +1,7 @@
 url: https://koi-rpc.darwinia.network
-status: down
-code: 502
-responseTime: 1744
-lastUpdated: 2024-11-19T12:07:39.401Z
+status: up
+code: 200
+responseTime: 1096
+lastUpdated: 2024-11-19T12:17:25.780Z
 startTime: 2024-11-05T13:23:30.336Z
 generator: Upptime <https://github.com/upptime/upptime>
