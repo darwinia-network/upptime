@@ -1,7 +1,7 @@
 url: https://crab-rpc.darwinia.network
-status: up
-code: 200
-responseTime: 1203
-lastUpdated: 2024-11-26T18:54:24.374Z
+status: down
+code: 502
+responseTime: 922
+lastUpdated: 2024-11-26T19:17:56.404Z
 startTime: 2024-11-05T13:23:20.045Z
 generator: Upptime <https://github.com/upptime/upptime>
