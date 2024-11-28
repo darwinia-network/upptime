@@ -218,4 +218,3 @@ sites:
     body: '{"query":"query MyQuery {\n _meta {\n hasIndexingErrors\n }\n}","operationName":"MyQuery"}'
 
 
-
