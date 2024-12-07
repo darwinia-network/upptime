@@ -1,7 +1,7 @@
 url: http://g2.testnets.darwinia.network:9942
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-12-07T05:48:35.073Z
+status: up
+code: 200
+responseTime: 364
+lastUpdated: 2024-12-07T05:53:52.415Z
 startTime: 2024-11-05T13:23:25.535Z
 generator: Upptime <https://github.com/upptime/upptime>
