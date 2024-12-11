@@ -1,7 +1,7 @@
 url: https://darwinia-rpc.dcdao.box
-status: up
-code: 200
-responseTime: 700
-lastUpdated: 2024-12-10T23:02:26.895Z
+status: down
+code: 503
+responseTime: 1085
+lastUpdated: 2024-12-11T09:42:00.290Z
 startTime: 2024-11-19T03:26:01.336Z
 generator: Upptime <https://github.com/upptime/upptime>
