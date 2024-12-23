@@ -1,7 +1,7 @@
 url: https://thegraph.darwinia.network/dip7/subgraphs/name/dip7index-crab
-status: down
-code: 502
-responseTime: 3288
-lastUpdated: 2024-12-23T08:54:13.878Z
+status: up
+code: 200
+responseTime: 250
+lastUpdated: 2024-12-23T08:59:48.207Z
 startTime: 2024-11-05T13:23:38.240Z
 generator: Upptime <https://github.com/upptime/upptime>
