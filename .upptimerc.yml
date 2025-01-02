@@ -199,10 +199,6 @@ sites:
   - name: msgport-api
     url: https://api.msgport.xyz
 
-  ### === migration-helper
-  - name: migration-helper-api
-    url: https://migration-helper.darwinia.network/api/health
-
   ### === thegraph
   - name: thegraph-dip7index-darwinia
     url: https://thegraph.darwinia.network/dip7/subgraphs/name/dip7index-darwinia
