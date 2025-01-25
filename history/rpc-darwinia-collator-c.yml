@@ -1,7 +1,7 @@
 url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_C
-status: up
-code: 200
-responseTime: 231
-lastUpdated: 2025-01-24T23:02:30.787Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2025-01-25T03:43:58.167Z
 startTime: 2024-11-05T13:23:16.871Z
 generator: Upptime <https://github.com/upptime/upptime>
