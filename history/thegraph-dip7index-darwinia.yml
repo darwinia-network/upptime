@@ -1,7 +1,7 @@
 url: https://thegraph.darwinia.network/dip7/subgraphs/name/dip7index-darwinia
-status: up
-code: 200
-responseTime: 708
-lastUpdated: 2025-01-26T23:02:18.548Z
+status: down
+code: 502
+responseTime: 3880
+lastUpdated: 2025-01-27T05:52:21.764Z
 startTime: 2024-11-05T13:23:37.199Z
 generator: Upptime <https://github.com/upptime/upptime>
