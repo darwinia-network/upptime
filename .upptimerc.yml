@@ -71,12 +71,12 @@ sites:
   #   headers:
   #     - "Content-Type: application/json"
   #   body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
-  - name: rpc-darwinia-dcdao
-    url: https://darwinia-rpc.dcdao.box
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  # - name: rpc-darwinia-dcdao
+  #   url: https://darwinia-rpc.dcdao.box
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
   # - name: rpc-darwinia-hrpc
   #   url: https://hrpc.darwinia.network/darwinia
   #   method: POST
