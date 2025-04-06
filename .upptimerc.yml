@@ -85,30 +85,30 @@ sites:
   #   body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
 
 
-  - name: rpc-darwinia-collator-a
-    url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_A
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
-  - name: rpc-darwinia-collator-b
-    url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_B
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
-  - name: rpc-darwinia-collator-c
-    url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_C
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
-  - name: rpc-darwinia-collator-d
-    url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_D
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  # - name: rpc-darwinia-collator-a
+  #   url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_A
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  # - name: rpc-darwinia-collator-b
+  #   url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_B
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  # - name: rpc-darwinia-collator-c
+  #   url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_C
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
+  # - name: rpc-darwinia-collator-d
+  #   url: $ENDPOINT_RPC_ITERING_COLLATOR_DARWINIA_D
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: '{"id":1,"jsonrpc":"2.0","method": "eth_getBlockByNumber","params":["latest", false]}'
 
 
 
